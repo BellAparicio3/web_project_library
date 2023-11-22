@@ -245,6 +245,10 @@
   background-image: url(../images/staff_picks_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .staff__title {
@@ -267,7 +271,7 @@
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
   max-width: 760px;
-  margin: 68px auto 0;
+  margin: 68px 0 0 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
